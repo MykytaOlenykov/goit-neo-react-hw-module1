@@ -1,0 +1,30 @@
+.table {
+  border-collapse: collapse;
+}
+
+.table-header {
+  font-weight: 500;
+  color: #fff;
+  background-color: #292929;
+}
+
+.table-header-cell {
+  padding: 8px 12px;
+  border: 1px solid #212121;
+}
+
+.table-body-row:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table-body-cell {
+  padding: 8px 12px;
+  min-width: 160px;
+  text-align: center;
+  color: #212121;
+  border: 1px solid #212121;
+}
+
+.uppercase-first-letter::first-letter {
+  text-transform: uppercase;
+}

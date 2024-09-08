@@ -1,0 +1,33 @@
+.root {
+  padding: 8px 12px;
+  color: #212121;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #212121;
+}
+
+.status {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.status.online {
+  color: #109410;
+}
+
+.status.offline {
+  color: #d71b1b;
+}
+
+.avatar {
+  margin: 0 auto 8px;
+}
+
+.name {
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+}
